@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: poppins;
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: -8px;
+}
+
+p {
+  margin-bottom: 35px;
+  text-align: center;
+  font-style: italic;
+}
+
+form {
+  width: 720px;
+  max-width: 750px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  background-color: rgb(123,104,238);
+  border-radius: 5px;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+input,
+textarea,
+select {
+  margin-top: 15px;
+  width: 100%;
+  min-height: 2em;
+  max-width: 630px;
+  margin-bottom: 15px;
+}
+
+input, select {
+  border-radius: 5px;	
+}
+
+input, textarea {
+  background-color: #ffffff;
+  border: 1px solid #0a0a23;
+  color: #0a0a23;
+}
+
+textarea {
+  height: 80px;	
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: rgba(65,105,225, 0.8);
+  border-color: white;
+  min-width: 300px;
+  max-width: 630px;
+  color: #ffffff;
+  transition: all 1s;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+a {
+  color: #dfdfe2;
+}
+
+.submit {
+  text-decoration: none;
+}
